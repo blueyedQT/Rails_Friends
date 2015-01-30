@@ -1,0 +1,12 @@
+1.  User.first should retrieve all the first user's information
+
+	True
+
+2.  User.friends.first should display all the friend information of the first user
+	
+	True
+
+3. Find out how you can retrieve all users who are not a friend with the first User
+
+	Not sure if this is the best way, but it is totally possible :D
+	User.all - User.first.friends
